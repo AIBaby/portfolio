@@ -38,6 +38,11 @@ li a {
     font-weight: 700;
 }
 
+li a:hover {
+    text-decoration: underline;
+    
+}
+
 h1 {
     color: black;
     text-align: center;
