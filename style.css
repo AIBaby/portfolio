@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato";
+    line-height: 1.7;
+}
+
+.container {
+    text-align: center;
+}
+
+.bar {
+    display: inline-block;
+    background-color: mediumslateblue;
+    width: 900px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+}
+
+li a {
+    float: left;
+    margin-right: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.headlinestyle {
+    text-align:center;
+}
+
+.aboutme {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    border-bottom: .5px solid black;
+    margin-top: 40px;
+    margin-right: 235px;
+    font-size: 25px;    
+}
+
+.social {
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    background-color:orange;
+    font-weight: 700;
+    box-shadow: 2px 5px #888888;
+    margin-left: -150px;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+}
+
+.social:hover {
+    background-color: mediumslateblue;
+    transform: scale(1.1);
+    box-shadow: 3px 6px #888888;
+    transition: .5s;
+}
+
+.social:active {
+    box-shadow: 1px 2px #888888;
+}
+
+
+.me {
+    height: 250px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 10px;
+    border: 10px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.me:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.wordsofabout {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+    font-size: 20px;
+    margin-left: 60px;
+    
+}
+
+.mainSection {
+    text-align: center;
+    margin-top: 70px;
+}
